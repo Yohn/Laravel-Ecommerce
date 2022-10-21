@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6885ad1b6a694d1aa7af97bac17681e",
+    "content-hash": "dd710e3861360e2c99abdab723bcb4f7",
     "packages": [
         {
             "name": "brick/math",
@@ -5499,6 +5499,61 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "yohn/laravel-livewire-modals",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yohn/laravel-livewire-modals.git",
+                "reference": "f2a15a7f639f5d0cf930d71823ea49690491f5eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Yohn/laravel-livewire-modals/zipball/f2a15a7f639f5d0cf930d71823ea49690491f5eb",
+                "reference": "f2a15a7f639f5d0cf930d71823ea49690491f5eb",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^9.19",
+                "livewire/livewire": "^2.10"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Yohn\\LaravelLivewireModals\\Providers\\LaravelLivewireModalsProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yohn\\LaravelLivewireModals\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Truong Nguyen",
+                    "email": "truongnx28111994@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Brittain III",
+                    "email": "jb@jw3b.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Dynamic Laravel Livewire Bootstrap modals.",
+            "homepage": "https://github.com/yohn/laravel-livewire-modals",
+            "support": {
+                "source": "https://github.com/Yohn/laravel-livewire-modals/tree/master"
+            },
+            "time": "2022-10-21T02:21:35+00:00"
         }
     ],
     "packages-dev": [
@@ -7884,7 +7939,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "yohn/laravel-livewire-modals": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
